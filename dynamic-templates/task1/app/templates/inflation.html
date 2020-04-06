@@ -1,0 +1,90 @@
+{%load string_to_float%}
+
+<!DOCTYPE html> {% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Инфляция в России</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    kek {
+        background-color: rgb(0, 191, 255);
+    color: rgb(255, 255, 255);
+    }
+</style>
+  </head>
+
+  <body>
+    {% block content %}
+      <div class="row">
+        <h1 class="col s12">Инфляция в России</h1>
+        <div class="col s12 m8">
+        
+        <!-- Ваша логика -->
+        <table style="width:100%">
+          <tr>
+          {%for element in header%}
+              {%if element == header.13%}
+                <th style="background-color: rgb(122, 116, 114)">{{element}}</th>
+              {%else%}
+                <th>{{element}}</th>
+              {%endif%}
+          {%endfor%}
+          </tr>
+
+          {%for list in content%}
+          <tr>
+
+            {%for element in list%}
+
+            {%if element == list.13 %}
+            <td style="background-color: rgb(122, 116, 114)"> {{element}} </td>
+
+            {%elif element == list.0%}
+            <td>{{element}}</td>
+
+            {%elif element|string_to_float < 0%}
+            <td style="background-color: green"> {{element}} </td>
+
+            {% elif element|string_to_float > 1 and element|string_to_float < 2%}
+            <td style="background-color: rgb(255, 150, 150)"> {{element}} </td>
+
+            {% elif element|string_to_float > 2 and element|string_to_float < 5 %}
+            <td style="background-color: rgb(255, 100, 100)"> {{element}} </td>
+
+            {% elif element|string_to_float > 5 %}
+            <td style="background-color: rgb(255, 50, 50)"> {{element}} </td>
+
+            {%else%}
+            <td>{{element}}</td>
+
+            {%endif%}
+
+            {%endfor%}
+
+
+
+          </tr>
+          {%endfor%}
+
+
+
+
+
+
+
+        </table>
+
+
+        </div>
+      </div>
+    {% endblock %}
+
+  </body>
+</html>
