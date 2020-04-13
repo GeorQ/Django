@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b236d3-89f3-4580-95ad-6677d4fd48fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/app/computers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/examples.html" afterDir="false" />
+    <list default="true" id="4fa447fc-d025-41f6-812b-342908c9ba79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../first-project/first_project/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first-project/first_project/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-project/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first-project/first_project/first_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_server/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_server/app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1a9ve25stlkiTWlpYZtki9WxyF9" />
+  <component name="ProjectId" id="1ZnYaQToXyFzp58edgh5jiMTtKW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +22,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -38,11 +30,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4b236d3-89f3-4580-95ad-6677d4fd48fd" name="Default Changelist" comment="" />
-      <created>1586160715392</created>
+      <changelist id="4fa447fc-d025-41f6-812b-342908c9ba79" name="Default Changelist" comment="" />
+      <created>1585476387489</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586160715392</updated>
+      <updated>1585476387489</updated>
     </task>
     <servers />
   </component>

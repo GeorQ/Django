@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="487b71bb-c6bd-4e26-8178-337f21b43e29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task1/app/templates/inflation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task1/app/templates/inflation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task1/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task1/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first-project/first_project/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../first-project/first_project/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../first-project/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../first-project/first_project/first_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../file_server/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../file_server/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pagination/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pagination/app/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ZqWBdu6lTwuyPthNwhxzEEgppc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="487b71bb-c6bd-4e26-8178-337f21b43e29" name="Default Changelist" comment="" />
+      <created>1585566969763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585566969763</updated>
+    </task>
+    <servers />
+  </component>
+</project>
