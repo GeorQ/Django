@@ -6,8 +6,30 @@ register = template.Library()
 
 @register.filter
 def format_date(value):
-    a = datetime.strptime(str(value), '%m/%d/%y %H:%M:%S')
-    return a
+    fmt = '%Y-%m-%d'
+    now_date = datetime.now()
+    posted_time = datetime.fromtimestamp(value)
+    difference = now_date - posted_time
+    difference_sec = difference.total_seconds()
+    difference_min = difference_sec / 60
+    difference_hour = difference_min / 60
+    if difference_min <= 10:
+        return "только что"
+    elif difference_hour <= 24:
+        difference_hour = round(difference_hour)
+        ver1 = [5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+        ver2 = [1,21]
+        ver3 = [2,3,4,22,23,24]
+        if difference_hour in ver1:
+            return f"{difference_hour} часов назад"
+        elif difference_hour in ver2:
+            return f"{difference_hour} час назад"
+        elif difference_hour in ver3:
+            return f"{difference_hour} часа назад"
+    else:
+        posted_time = datetime.strftime(posted_time, fmt)
+        return posted_time
+
 
 
 @register.filter
