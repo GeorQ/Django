@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8e748e3-6ee8-4b5c-b151-baee4a160c48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../databases/work_with_database/phones/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../databases/work_with_database/phones/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task1/app/templates/inflation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task1/app/templates/inflation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task1/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task1/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../dynamic-templates/task2/app/templates/app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../first-project/first_project/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../first-project/first_project/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../first-project/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../first-project/first_project/first_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../file_server/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../file_server/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../landing/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../landing/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="e8e748e3-6ee8-4b5c-b151-baee4a160c48" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,5 +39,10 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1586796720429" />
+    <state x="454" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1590237096656">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="454" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1586806817815" />
+    <state x="454" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1590237096656" />
   </component>
 </project>

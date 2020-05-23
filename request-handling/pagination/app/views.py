@@ -23,13 +23,21 @@ def bus_stations(request):
             cont.append(dict)
 
     paginator = Paginator(cont, 15, 3)
-    current_page = int(request.GET.get('page', 1))
+    current_page = request.GET.get('page', 1)
     articles = paginator.get_page(current_page)
+    num_pages = paginator.num_pages
     if articles.has_next():
-        next_page_url = articles.next_page_number
+        next_page = articles.next_page_number()
+    else:
+        next_page = None
+    if articles.has_previous():
+        prev_page = articles.previous_page_number()
+    else:
+        prev_page = None
     return render_to_response('index.html', context={
         'bus_stations': articles,
         'current_page': articles.number,
-        'prev_page_url': None,
-        'next_page_url': next_page_url,
+        'prev_page_url': prev_page,
+        'next_page_url': next_page,
+        'max': num_pages,
     })
