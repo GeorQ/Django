@@ -22,10 +22,10 @@ def product_view(request, pk):
     reviews = product.review_set.all()
     p_name = 'review_of_' + str(pk)
     form = ReviewForm
-    if reviews.count():
-        is_review_exist = True
-    else:
+    if request.session.get(p_name, 0) < 1:
         is_review_exist = False
+    else:
+        is_review_exist = True
     if request.method == 'POST':
         if request.session.get(p_name, 0) < 1:
             form = ReviewForm(request.POST)
@@ -41,6 +41,6 @@ def product_view(request, pk):
         'reviews': reviews,
         'is_review_exist': is_review_exist,
     }
-    print(request.session.get(p_name, 'kek'))
+    print(request.session.get(p_name, 0))
     # request.session[p_name] = 0
     return render(request, template, context)
