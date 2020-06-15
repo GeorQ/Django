@@ -17,7 +17,13 @@ class Article(models.Model):
 
 class Tag(models.Model):
     name = models.CharField(max_length=50)
-    articles = models.ManyToManyField(Article, related_name="tags")
+    articles = models.ManyToManyField(Article, related_name="tags", through='Membership')
 
     def __str__(self):
         return self.name
+
+
+class Membership(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    tag = models.ForeignKey(Tag, on_delete=models.CASCADE)
+    is_main = models.BooleanField()
