@@ -22,8 +22,14 @@ class Tag(models.Model):
     def __str__(self):
         return self.name
 
+    class Meta:
+        ordering = ['-name']
+
 
 class Membership(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
     tag = models.ForeignKey(Tag, on_delete=models.CASCADE)
     is_main = models.BooleanField()
+
+    class Meta:
+        ordering = ['tag']
